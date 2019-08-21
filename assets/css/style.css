@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #fff;
+}
+
+/*----------Global Styles--------*/
+
+li {
+  list-style: none;
+}
+
+.card {
+  border-radius: 0;
+}
+
+/* ----------Global Styles--------*/
+
+/* --------Navbar Start---------*/
+.navbar {
+  background: #fff !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar .form-control {
+  width: 350px;
+}
+
+@media (max-width: 768px) {
+  .navbar .form-control {
+    max-width: 270px;
+  }
+}
+
+.btn-nav {
+  background-color: #1dbf73;
+  color: #fff;
+  border: 1px solid transparent;
+  font-weight: 600;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-nav:hover {
+  color: #fff;
+}
+
+.btn-join {
+  width: 70px;
+}
+
+.btn-join:hover {
+  background-color: #1dbf73;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+
+.navbar a {
+  color: #666 !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbar li .current {
+  color: #1fd0b6 !important;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.bottom-nav a {
+  color: #666 !important;
+  font-size: 15px;
+}
+
+/* ---Navbar End------ */
+
+/* ---Profile Area Start------*/
+
+.profile-card h4 {
+  color: #000;
+  font-family: montserrat;
+  font-size: 20px;
+  text-align: center;
+}
+
+.profile-card p {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+.profile-card li {
+  color: #666;
+  font-size: 14px;
+}
+
+.rs-info {
+  float: right;
+  font-weight: 700;
+}
+
+/*-- Profile card 2--- */
+
+.profile-card-2 h4 {
+  color: #000;
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+.profile-card-2 p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* --Profile Card 2 End-- */
+
+/* Tab 2 start */
+.tab-2 .header {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: proximanova, helvetica neue, Helvetica, Arial, sans-serif;
+  color: #0e0e0f;
+}
+
+.tab-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  color: #ffc100;
+  font-weight: 700;
+}
+.number-2 {
+  color: #ffc100;
+  font-weight: 700;
+}
+.star-rating {
+  color: #ffc100;
+  font-weight: 700;
+}
+/* Footer are */
+.footer {
+  background: #fafafa;
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+}
+.footer .copyright {
+  font-size: 11px;
+}
+
+.footer-tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+}
+
+.footer .header {
+  margin-top: 15px;
+}
+
+.footer h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
+}
+
+.footer li {
+  padding: 5px 0;
+}
+
+.footer li a {
+  color: #666;
+  font-size: 15px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons li {
+  padding-right: 35px;
+}
+
+.footer-icons li a i {
+  font-size: 20px;
+}
+
+.footer .terms {
+  line-height: 0px;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+/* Login Form */
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  width: 26rem;
+}
+.btn-fb {
+  background: #3b5998;
+  color: #fff;
+}
+
+.btn-login {
+  background-color: #1dbf73;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.login-form .agreement {
+  font-size: 14px;
+}
+
+.login-form .login-link {
+  color: #1dbf73;
+}
